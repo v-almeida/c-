@@ -318,12 +318,12 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/8.0.5": {
+      "Microsoft.EntityFrameworkCore.Design/8.0.6": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.14.1",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.5.0",
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.6",
           "Microsoft.Extensions.DependencyModel": "8.0.0",
           "Mono.TextTemplating": "2.2.1"
         },
@@ -341,10 +341,10 @@
           "build/net8.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/8.0.5": {
+      "Microsoft.EntityFrameworkCore.Relational/8.0.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.5",
+          "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
         },
         "compile": {
@@ -1381,10 +1381,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/8.0.5": {
-      "sha512": "HWYnbuMwllSCsZjfKj3Vz+HDGOCyGlTMYjI7tZH5pK7AuiGNHOdshCnWlEFEuDV6oAadWfXGTDmkmV53gwTqSQ==",
+    "Microsoft.EntityFrameworkCore.Design/8.0.6": {
+      "sha512": "4OT+mH+8EB4Kfn1ENpDx2Ssx459j200gvdhDOKq5lkHmHzkRpmEDKS5GfqaLZvBLJKWu1FVGQ7Wnczcjb0hX4g==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/8.0.5",
+      "path": "microsoft.entityframeworkcore.design/8.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1393,14 +1393,14 @@
         "build/net8.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.8.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.8.0.6.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/8.0.5": {
-      "sha512": "x2bdSK3eKKEQkDdYcGxxDU+S7NqhBiz/Fciz01Mafz9P71VRdP3JskKHaZvwK0/sNEAT3hS7BTsDQGUA2F9mAA==",
+    "Microsoft.EntityFrameworkCore.Relational/8.0.6": {
+      "sha512": "chhfmLusCGLGvNYtvMji6KGQlduPDnJsStG/LjS8qJhFWJDDzTZpSr2LHowewcxMrMo/Axc6Jwe+WwSi/vlkTg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/8.0.5",
+      "path": "microsoft.entityframeworkcore.relational/8.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1408,7 +1408,7 @@
         "PACKAGE.md",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.8.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.8.0.6.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
@@ -2262,36 +2262,29 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityframeworkCore >= 8.0.5",
-      "Microsoft.EntityframeworkCore.Design >= 8.0.5",
+      "Microsoft.EntityframeworkCore.Design >= 8.0.6",
       "Pomelo.EntityframeworkCore.MySql >= 8.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\autologon\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\witha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\autologon\\Documents\\vitor\\ExemploORM\\ExemploORM.csproj",
+      "projectUniqueName": "C:\\Users\\witha\\Desktop\\c-\\c-\\ExemploORM.csproj",
       "projectName": "ExemploORM",
-      "projectPath": "C:\\Users\\autologon\\Documents\\vitor\\ExemploORM\\ExemploORM.csproj",
-      "packagesPath": "C:\\Users\\autologon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\autologon\\Documents\\vitor\\ExemploORM\\obj\\",
+      "projectPath": "C:\\Users\\witha\\Desktop\\c-\\c-\\ExemploORM.csproj",
+      "packagesPath": "C:\\Users\\witha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\witha\\Desktop\\c-\\c-\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\autologon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\witha\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2304,6 +2297,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2318,7 +2316,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.5, )"
+            "version": "[8.0.6, )"
           },
           "Pomelo.EntityframeworkCore.MySql": {
             "target": "Package",
@@ -2344,8 +2342,19 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Downgrade de pacote detectado: Microsoft.EntityFrameworkCore de 8.0.6 para 8.0.5. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n ExemploORM -> Microsoft.EntityFrameworkCore.Design 8.0.6 -> Microsoft.EntityFrameworkCore.Relational 8.0.6 -> Microsoft.EntityFrameworkCore (>= 8.0.6) \r\n ExemploORM -> Microsoft.EntityFrameworkCore (>= 8.0.5)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
