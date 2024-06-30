@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\witha\\Desktop\\c-\\c-\\ExemploORM.csproj": {}
+    "C:\\Users\\witha\\Documents\\exemploRM\\c-\\ExemploORM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\witha\\Desktop\\c-\\c-\\ExemploORM.csproj": {
+    "C:\\Users\\witha\\Documents\\exemploRM\\c-\\ExemploORM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\witha\\Desktop\\c-\\c-\\ExemploORM.csproj",
+        "projectUniqueName": "C:\\Users\\witha\\Documents\\exemploRM\\c-\\ExemploORM.csproj",
         "projectName": "ExemploORM",
-        "projectPath": "C:\\Users\\witha\\Desktop\\c-\\c-\\ExemploORM.csproj",
+        "projectPath": "C:\\Users\\witha\\Documents\\exemploRM\\c-\\ExemploORM.csproj",
         "packagesPath": "C:\\Users\\witha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\witha\\Desktop\\c-\\c-\\obj\\",
+        "outputPath": "C:\\Users\\witha\\Documents\\exemploRM\\c-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\witha\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -40,22 +40,24 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.EntityframeworkCore": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[7.0.2, )"
             },
-            "Microsoft.EntityframeworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[7.0.0, )"
             },
-            "Pomelo.EntityframeworkCore.MySql": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -69,6 +71,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -77,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
